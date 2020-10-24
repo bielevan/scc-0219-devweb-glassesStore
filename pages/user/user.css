@@ -1,24 +1,21 @@
 html{
     margin: 0%;
 }
-
 div.dados{
     color: #4E4747;
     position: absolute;
 
 }
-
 div.box{
     position: absolute;
     width: 267px;
     height: 289px;
     left: 29px;
-    top: 350px;
+    top: 380px;
     
     background: #5B2434;
     color: white;
 }
-
 .box-p{
     text-decoration: none;
     color: white;
@@ -31,7 +28,6 @@ div.box{
     line-height: 34px;
     text-align: center;
 }
-
 hr.white{
     position: absolute;
     width: 265px;
@@ -40,23 +36,20 @@ hr.white{
     background-color: white;
 
 }
-
 p.page-header{
     font-size: 46px;
     font-weight: bold;
     position: relative;
-    top: 130px;
+    top: 50px;
     left: 334px;
 }
-
 p.meus-dados{
     font-size: 30px; 
     font-weight: bold;
     position: relative;
-    top: 141px;
+    top: 60px;
     left: 334px;
 }
-
 hr.black{
     position: absolute;
     margin-top: 0px;
@@ -64,12 +57,11 @@ hr.black{
     width: 918px;
     height: 0px;
     left: 334px;
-    top: 350px;
+    top: 270px;
     background-color: #4E4747;
     
     border: 1px solid #4E4747;
 }
-
 .nome{
     position: absolute;
     margin-top: 32px;
@@ -89,18 +81,118 @@ hr.black{
     font-style: normal;
     color: black; 
 }
-
 .edit{
     text-decoration: underline;
     color: #4E4747  ;
     position: absolute;
     width: 100%;
     height: 33px;
-    left: 1086px;
-    top: 682px;
+    left: 1066px;
+    top: 612px;
     
     font-style: normal;
     font-weight: bold;
     font-size: 24px;
     line-height: 34px;
+}
+
+div.header{
+    width: 100%;
+    height: 120px;
+    background-color: #F1F1F1;
+    
+}
+div.sub-header{
+    width: 100%;
+    height: 30px;
+    background-color: #DCDCDC;
+}
+body {
+    margin: 0;
+    background-color: #FFFFFF;
+    
+}
+div.slidown {
+    width: 100%;
+    height: 10vh;
+    background-color: #FFFFFF;
+}
+.block{
+    display: inline-block;
+    vertical-align: middle;
+    background-color: rgba(255, 255, 255, 0);
+    width: 30vw;
+    height: 100%;
+    border-width: 1px;
+    text-align: left;
+}
+.headera{
+    text-decoration: none;
+    color: rgb(58, 58, 58);
+    display: inline-block;
+    margin-top: 10%;
+    margin-left: 1vw;
+    font-size: 0.95vw;
+    font-weight: bold;
+}
+.headera:hover{
+    background-color:  #f3bc46;
+    color: white;
+    transition: border-radius 500ms, 
+    color 1s,
+    background-color 0.3s;
+}
+.row3{
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-left: 4vw;
+}
+h1, h2, h3 {
+color: rgb(78, 78, 78);
+margin: 0;
+margin-bottom: 10px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #f3bc46;
+  }
+  .fav{
+      background: url('https://www.flaticon.com/svg/static/icons/svg/25/25424.svg') no-repeat scroll 2px 2px;
+      background-size: 1.5vw;
+      background-color: rgba(255, 255, 255, 0);
+      vertical-align: middle;
+      background-position: center;
+  }
+  .colum3:hover {
+    background-color: #f3bc46;
+    transition: border-radius 500ms, 
+    color 1s,
+    background-color 0.5s;
+  }
+  .person{
+    background: url('https://www.flaticon.com/svg/static/icons/svg/54/54647.svg') no-repeat scroll 2px 2px;
+    background-size: 1.5vw;
+    background-color: rgba(255, 255, 255, 0);
+    vertical-align: middle;
+    background-position: center;
+}
+.cart{
+    background: url('https://www.flaticon.com/svg/static/icons/svg/34/34568.svg') no-repeat scroll 2px 2px;
+    background-size: 1.5vw;
+    background-color: rgba(255, 255, 255, 0);
+    vertical-align: middle;
+    background-position: center;
+}
+button{
+    border: 1px solid;
+    width: 30%;
+    height: 7%;
+    background-color: rgb(233, 216, 64);
+}
+button:hover{
+    background-color: white;
+    transition: border-radius 500ms, 
+    color 1s,
+    background-color 0.5s;
 }

@@ -1,15 +1,11 @@
 html{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
-
-
 .row{
     text-align: center;
     width: 80%;
     padding-left: 12vw;
 }
-
 div.header{
     width: 100%;
     height: 120px;
@@ -21,29 +17,22 @@ div.sub-header{
     height: 30px;
     background-color: #DCDCDC;
 }
-
 div.slider{
     width: 100%;
     height: 80vh;
     background:  url("https://wallpapercave.com/wp/wp2366361.jpg");
     background-size: cover;
 }
-
-
-
 body {
     margin: 0;
     background-color: #FFFFFF;
     
 }
-
 div.slidown {
     width: 100%;
     height: 10vh;
     background-color: #FFFFFF;
 }
-
-
 div.galery{
    
     width: 100%;
@@ -52,11 +41,7 @@ div.galery{
     text-align: center;
     margin-bottom: 20px;
     overflow: scroll;
-    
-    
-    
 }
-
 div.glass {
     text-align: center;
     display: inline-block;
@@ -67,19 +52,13 @@ div.glass {
     margin-top: 6vw;
     background-color: #f7f7f7;
 }
-
-
-
-
 .glassimg{
     vertical-align: middle;
-width: 20vh;
-height: 20vh;
+    width: 20vh;
+    height: 20vh;
 
 }
-
 div.footer{
-   
     width: 100%;
     height: 30px;
     background-color: #EDEDED;
@@ -87,7 +66,6 @@ div.footer{
     color: #525050;
     text-decoration: underline;
 }
-
 .block{
     display: inline-block;
     vertical-align: middle;
@@ -97,14 +75,12 @@ div.footer{
     border-width: 1px;
     text-align: left;
 }
-
 p{
     vertical-align: middle;
     text-align: center;
     color: #f3bc46;
     font-size: 40px;
 }
-
 .searchbar{
     background: url('https://www.flaticon.com/svg/static/icons/svg/56/56936.svg') no-repeat scroll 2vw 2vw;
     background-size: 1.3vw;
@@ -120,19 +96,15 @@ p{
     border-radius: 15px;
     border-color: #dcdcdc00;
 }
-
-
 .headera{
     text-decoration: none;
     color: rgb(58, 58, 58);
     display: inline-block;
     margin-top: 10%;
     margin-left: 1vw;
-    font-size: 1.1vw;
+    font-size: 0.95vw;
     font-weight: bold;
-
 }
-
 .headera:hover{
     background-color:  #f3bc46;
     color: white;
@@ -140,8 +112,6 @@ p{
     color 1s,
     background-color 0.3s;
 }
-
-
 .colum3{
     display: inline-block;
     vertical-align: middle;
@@ -149,9 +119,7 @@ p{
     height: 3vw;
     margin-top: 5vh;
     margin-left: 4vw;
-
 }
-
 .row3{
     text-align: center;
     display: block;
@@ -159,7 +127,6 @@ p{
     height: 100%;
     margin-left: 4vw;
 }
-
 h1, h2, h3 {
 color: rgb(78, 78, 78);
 margin: 0;
@@ -169,7 +136,6 @@ margin-bottom: 10px;
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: #f3bc46;
   }
-
 
   .fav{
       background: url('https://www.flaticon.com/svg/static/icons/svg/25/25424.svg') no-repeat scroll 2px 2px;
