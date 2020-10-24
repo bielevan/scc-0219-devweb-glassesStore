@@ -9,68 +9,64 @@
 </head>
 
 <body>
+    <div class="header" style="position: fixed;">
+        <div class="header" style="text-align: center;">
+            <div class="block"><a href="../principal/principal.html"> <img style="height: 100%; width: auto;"
+                        src="../images/logo_borderless.png">
+            </div></a>
 
-    <body>
-        <div class="header" style="position: fixed;">
-            <div class="header" style="text-align: center;">
-                <div class="block"><a href="../principal/principal.html"> <img style="height: 100%; width: auto;"
-                            src="../images/logo_borderless.png">
-                </div></a>
-
-                <div class="block">
-                    <div class="colum2"> <input class="searchbar" type="search" placeholder="best glasses in the world">
-                    </div>
-                    <a class="headera" href="">ÓCULOS DE SOL</a>
-                    <a class="headera" href="">ÓCULOS DE GRAU</a>
-                    <a class="headera" href="">EVERGLASSES</a>
+            <div class="block">
+                <div class="colum2"> <input class="searchbar" type="search" placeholder="best glasses in the world">
                 </div>
+                <a class="headera" href="">ÓCULOS DE SOL</a>
+                <a class="headera" href="">ÓCULOS DE GRAU</a>
+                <a class="headera" href="">EVERGLASSES</a>
+            </div>
 
-                <div class="block">
-                    <div class="row3">
-                        <a href="">
-                            <div class="colum3 fav"></div>
-                        </a>
-                        <a href="../user/user_dados.html">
-                            <div class="colum3 person"></div>
-                        </a>
-                        <a href="">
-                            <div class="colum3 cart"></div>
-                        </a>
-                    </div>
+            <div class="block">
+                <div class="row3">
+                    <a href="">
+                        <div class="colum3 fav"></div>
+                    </a>
+                    <a href="../user/user_dados.html">
+                        <div class="colum3 person"></div>
+                    </a>
+                    <a href="">
+                        <div class="colum3 cart"></div>
+                    </a>
                 </div>
             </div>
-            <div class="sub-header" style="text-align: center;">
-            </div>
         </div>
+        <div class="sub-header" style="text-align: center;">
+        </div>
+    </div>
 
-        <div class="slidown" style="text-align: center; font-weight: bold; color: rgb(66, 66, 66);">
-        </div>
-        
-        <div class="box">
-            <a href="user_dados.html" class="box-p" style="left: 2px;">Meus Dados</a>
-            <hr class="white" style="top: 96px;">
-            <a href="user_address.html" class="box-p" style="left: 2px; top: 98px;">Endereço</a>
-            <hr class="white" style="top: 188px;">
-            <a href="" class="box-p" style="left: 2px; top: 186px;">Cobrança</a>
-        </div>
+    <div class="slidown" style="text-align: center; font-weight: bold; color: rgb(66, 66, 66);">
+    </div>
+
+    <div >
+        <button class="button" style="top: 380px" onclick="window.location.href='user_dados.html';">Meus Dados</button>
+        <button class="button" style="top: 476px" onclick="window.location.href='user_address.html';">Endereço</button>
+        <button class="button" style="top: 572px">Cobrança</button>
+    </div>
 
 
     <div class="dados">
         <p class="page-header">Meu Perfil</p>
         <p class="meus-dados">Meus Dados</p>
         <hr class="black">
-        <form action="user_dados.html">
-            <label for="nome" class="nome" style="top: 270px">Nome:</label>
-            <input class="info" style="top: 270px;" type="text" id="nome" name="nome"><br><br>
-            <label for="sobrenome" class="nome" style="top: 322px">Sobrenome:</label>
-            <input class="info" style="top: 322px;" type="text" id="sobrenome" name="sobrenome"><br><br>
-            <label for="senha" class="nome" style="top: 374px">Senha:</label>
-            <input class="info" style="top: 374px;" type="password" id="senha" name="senha"><br><br>
-            <label for="data" class="nome" style="top: 426px">Data de Nascimento:</label>
-            <input class="info" style="top: 426px;" type="date" id="data" name="data"><br><br>
-            <label for="telefone" class="nome" style="top: 478px">Telefone para Contato:</label>
-            <input class="info" style="top: 478px;" type="tel" id="telefone" name="tel"><br><br>
-            <input class="edit" type="submit" value="Editar Dados">
+        <form style="position: absolute; left: 2px;" action="user_dados.html">
+            <label for="nome" class="nome" style="top: 50px">Nome:</label>
+            <input class="info" style="top: 50px;" type="text" id="nome" name="nome"><br><br>
+            <label for="sobrenome" class="nome" style="top: 110px">Sobrenome:</label>
+            <input class="info" style="top: 110px;" type="text" id="sobrenome" name="sobrenome"><br><br>
+            <label for="senha" class="nome" style="top: 170px">Senha:</label>
+            <input class="info" style="top: 170px;" type="password" id="senha" name="senha"><br><br>
+            <label for="data" class="nome" style="top: 230px">Data de Nascimento:</label>
+            <input class="info" style="top: 230px;" type="date" id="data" name="data"><br><br>
+            <label for="telefone" class="nome" style="top: 290px">Telefone para Contato:</label>
+            <input class="info" style="top: 290px;" type="tel" id="telefone" name="tel"><br><br>
+            <input class="edit" style="top: 350px" type="submit" value="Editar Dados">
         </form>
 
     </div>
